@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/后台/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/后台/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/后台/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/后台/vendor/composer" />
+      <path value="$PROJECT_DIR$/后台/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/后台/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/后台/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/后台/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/后台/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/后台/vendor/league/flysystem-cached-adapter" />
+      <path value="$PROJECT_DIR$/后台/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/后台/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/后台/vendor/topthink/think-trace" />
+      <path value="$PROJECT_DIR$/后台/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/后台/vendor/topthink/think-orm" />
+      <path value="$PROJECT_DIR$/后台/vendor/topthink/framework" />
+      <path value="$PROJECT_DIR$/后台/vendor/topthink/think-multi-app" />
+      <path value="$PROJECT_DIR$/后台/vendor/tp5er/tp5-databackup" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>

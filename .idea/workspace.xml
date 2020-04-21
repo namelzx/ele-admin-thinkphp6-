@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a42c08d-c9a5-4a01-8ac6-a8bcc2771d33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/instruct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/oss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/roles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/rules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/salesman.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api/tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/TreeTable/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/Upload/oneImage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/styles/hc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/utils/aliOss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/utils/openWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/utils/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/utils/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/views/app/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/views/dashboard/components/callDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/views/manage/rules/rules.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/views/oss/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.env.development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/BackToTop/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/Charts/Keyboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/Charts/LineMarker.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/Charts/MixChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/Charts/mixins/resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/DndList/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/DragSelect/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/Dropzone/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/JsonEditor/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/Kanban/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/MDinput/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/MarkdownEditor/default-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/MarkdownEditor/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/PanThumb/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/Share/DropdownMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/SizeSelect/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/SizeSelect/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/Sticky/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/TextHoverEffect/Mallki.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/layout/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/layout/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/layout/components/Settings/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/layout/components/Settings/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/store/getters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/store/modules/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/store/modules/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/store/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/charts/keyboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/charts/line.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/charts/mix-chart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/avatar-upload.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/back-to-top.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/count-to.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/dnd-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/drag-dialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/drag-kanban.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/drag-select.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/dropzone.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/json-editor.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/markdown.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/mixin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/split-pane.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/sticky.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/components-demo/tinymce.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/BarChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/BoxCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/LineChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/PanelGroup.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/PieChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/RaddarChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/TodoList/Todo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/TodoList/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/TodoList/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/TransactionTable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/components/mixins/resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/admin/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/editor/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/dashboard/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/documentation/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/example/components/ArticleDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/example/components/Dropdown/Comment.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/example/components/Dropdown/Platform.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/example/components/Dropdown/SourceUrl.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/example/components/Dropdown/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/example/components/Warning.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/example/create.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/example/edit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/example/list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/excel/components/AutoWidthOption.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/excel/components/BookTypeOption.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/excel/components/FilenameOption.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/excel/export-excel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/excel/merge-header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/excel/select-excel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/excel/upload-excel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/guide/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/guide/steps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/icons/element-icons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/icons/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/icons/svg-icons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/nested/menu1/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/nested/menu1/menu1-1/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/nested/menu1/menu1-2/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/nested/menu1/menu1-3/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/nested/menu2/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/pdf/content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/pdf/download.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/pdf/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/permission/components/SwitchRoles.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/permission/directive.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/permission/page.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/permission/role.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/profile/components/Account.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/profile/components/Activity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/profile/components/Timeline.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/profile/components/UserCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/profile/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/qiniu/upload.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/tab/components/TabPane.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/tab/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/table/complex-table.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/table/drag-table.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/table/dynamic-table/components/FixedThead.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/table/dynamic-table/components/UnfixedThead.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/table/dynamic-table/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/table/inline-edit-table.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/theme/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/zip/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/vue.config.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/后台/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台/app/admin/route/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台/app/admin/model/AdminModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台/app/admin/model/OssImgModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台/app/admin/controller/OssImg.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="20" column="81" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台/app/controller/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+              <folding>
+                <element signature="e#34#57#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" lean-forward="true" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台/vendor/tp5er/tp5-databackup/src/Backup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="92" column="33" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="33" />
+              <folding>
+                <element signature="e#232#252#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台/vendor/topthink/think-orm/src/DbManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3285">
+              <caret line="233" column="20" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>没有权限</find>
+      <find>TokenException</find>
+      <find>e_app_miss</find>
+      <find>jwt_algorithm</find>
+      <find>default</find>
+      <find>默认</find>
+      <find>exception_handle</find>
+      <find>BaseException</find>
+      <find>getInfo</find>
+      <find>addRoutes</find>
+      <find>message</find>
+      <find>getGroupById</find>
+      <find>bubble_sort</find>
+      <find>foreach</find>
+      <find>getAuthByGroupIdToTree</find>
+      <find>getListsAll</find>
+      <find>AuthRule</find>
+      <find>alwaysShow</find>
+      <find>GetDataByRule</find>
+      <find>groupId</find>
+      <find>Non-static method think\DbManager::connect() should not be called statically</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/后台/app/ExceptionHandle.php" />
+        <option value="$PROJECT_DIR$/后台/app/controller/admin/controller/Index.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/controller/index.php" />
+        <option value="$PROJECT_DIR$/后台/app/controller/admin/Login.php" />
+        <option value="$PROJECT_DIR$/后台/app/util/CommonConstant.php" />
+        <option value="$PROJECT_DIR$/后台/app/validate/admin/Admin.php" />
+        <option value="$PROJECT_DIR$/admin/src/router/index.js" />
+        <option value="$PROJECT_DIR$/admin/src/store/modules/permission.js" />
+        <option value="$PROJECT_DIR$/admin/src/store/modules/user.js" />
+        <option value="$PROJECT_DIR$/admin/src/permission.js" />
+        <option value="$PROJECT_DIR$/admin/src/api/user.js" />
+        <option value="$PROJECT_DIR$/admin/src/config/index.js" />
+        <option value="$PROJECT_DIR$/admin/src/utils/request.js" />
+        <option value="$PROJECT_DIR$/后台/config/app.php" />
+        <option value="$PROJECT_DIR$/后台/route/app.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/service/Admin.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/services/AdminLogin.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/validate/Admin.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/model/LoginLogModel.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/controller/Api.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/common/Api.php" />
+        <option value="$PROJECT_DIR$/后台/app/util/AuthUtil.php" />
+        <option value="$PROJECT_DIR$/后台/app/util/JwtUtil.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/model/AuthRuleModel.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/controller/Base.php" />
+        <option value="$PROJECT_DIR$/admin/.env.development" />
+        <option value="$PROJECT_DIR$/后台/app/admin/controller/Login.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/services/AdminLoginService.php" />
+        <option value="$PROJECT_DIR$/后台/app/controller/Api.php" />
+        <option value="$PROJECT_DIR$/后台/public/index.php" />
+        <option value="$PROJECT_DIR$/后台/app/util/TreeUtil.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/services/AuthGroupService.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/controller/AuthRule.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/services/AuthRuleService.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/validate/AuthRule.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/controller/Authrule.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/services/AuthInstructSerice.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/controller/AuthInstruct.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/model/AuthGroupModel.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/model/AuthInstructModel.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/controller/AuthGroup.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/services/AdminService.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/controller/Admin.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/model/AdminModel.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/model/OssModel.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/model/OssImgModel.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/route/app.php" />
+        <option value="$PROJECT_DIR$/后台/app/admin/controller/OssImg.php" />
+        <option value="$PROJECT_DIR$/后台/vendor/tp5er/tp5-databackup/src/Backup.php" />
+        <option value="$PROJECT_DIR$/后台/app/controller/Index.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/后台/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/后台/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/后台/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/后台/vendor/composer" />
+      <path value="$PROJECT_DIR$/后台/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/后台/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/后台/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/后台/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/后台/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/后台/vendor/league/flysystem-cached-adapter" />
+      <path value="$PROJECT_DIR$/后台/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/后台/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/后台/vendor/topthink/think-trace" />
+      <path value="$PROJECT_DIR$/后台/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/后台/vendor/topthink/think-orm" />
+      <path value="$PROJECT_DIR$/后台/vendor/topthink/framework" />
+      <path value="$PROJECT_DIR$/后台/vendor/topthink/think-multi-app" />
+      <path value="$PROJECT_DIR$/后台/vendor/tp5er/tp5-databackup" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="729" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="火创科技" type="b2602c69:ProjectViewProjectNode" />
+              <item name="火创科技tp6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="火创科技" type="b2602c69:ProjectViewProjectNode" />
+              <item name="火创科技tp6" type="462c0819:PsiDirectoryNode" />
+              <item name="后台" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/后台/app/http/middleware" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a42c08d-c9a5-4a01-8ac6-a8bcc2771d33" name="Default Changelist" comment="" />
+      <created>1585342359111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585342359111</updated>
+      <workItem from="1585342360891" duration="4633000" />
+      <workItem from="1586294910801" duration="13618000" />
+      <workItem from="1586810120032" duration="3198000" />
+      <workItem from="1586899857012" duration="5351000" />
+      <workItem from="1587013581650" duration="3369000" />
+      <workItem from="1587017247740" duration="2333000" />
+      <workItem from="1587257155265" duration="12951000" />
+      <workItem from="1587350206830" duration="3266000" />
+      <workItem from="1587377253382" duration="1004000" />
+      <workItem from="1587423162981" duration="10561000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60284000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="729" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28594506" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32810047" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/src/utils/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/controller/admin/controller/Index.php" />
+    <entry file="file://$PROJECT_DIR$/admin/src/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/controller/admin/Login.php" />
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/controller/index.php" />
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/service/Admin.php" />
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/validate/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/AppService.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/util/CommonConstant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/model/LoginLogModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/controller/Api.php" />
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/common/Api.php" />
+    <entry file="file://$PROJECT_DIR$/后台/app/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6705">
+          <caret line="455" column="9" selection-start-line="455" selection-start-column="9" selection-end-line="455" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/util/AuthUtil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/util/JwtUtil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#109#130#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/vendor/firebase/php-jwt/src/JWT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/.env.development">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/controller/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="16" selection-start-line="16" selection-end-line="21" />
+          <folding>
+            <element signature="e#115#138#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/util/TreeUtil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/route/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/vendor/topthink/think-orm/src/db/BaseQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="794" column="20" selection-start-line="794" selection-start-column="20" selection-end-line="794" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/services/AdminLoginService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#119#150#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/validate/AuthRule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/services/AuthInstructSerice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/controller/AuthInstruct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/model/AuthRuleModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1749">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/controller/Authrule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/model/AuthInstructModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/services/AuthRuleService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding>
+            <element signature="e#119#150#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/model/AuthGroupModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/services/AuthGroupService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/controller/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#121#162#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/controller/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#121#160#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/controller/AuthGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#121#156#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/controller/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="52" />
+          <folding>
+            <element signature="e#121#157#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/services/AdminService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/model/AdminModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/model/OssImgModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/route/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/admin/controller/OssImg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="81" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/vendor/topthink/think-orm/src/DbManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3285">
+          <caret line="233" column="20" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/vendor/tp5er/tp5-databackup/src/Backup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="92" column="33" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="33" />
+          <folding>
+            <element signature="e#232#252#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/app/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="e#34#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="true" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
