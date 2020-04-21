@@ -1,6 +1,6 @@
 .DS_Store
-admin/node_modules/
-admin/dist/
+ele/node_modules/
+ele/dist/
 admin/npm-debug.log*
 admin/yarn-debug.log*
 admin/yarn-error.log*
